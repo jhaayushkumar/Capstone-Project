@@ -89,35 +89,7 @@ All filters are applied across the entire dashboard for consistent and dynamic a
 - Right-aligned filter panel for better usability
 - High contrast for readability
 
-## 9. Statistical Analysis / Model / Business Logic
-Statistical analysis was performed in `notebooks/04-statistical_analysis.ipynb` (executed with complete outputs) using `scipy` and `scikit-learn`:
-
-**Statistical Tests Performed:**
-- **Normality Tests**: Shapiro-Wilk test on key variables (all showed non-normal distributions)
-- **Hypothesis Testing**: 
-  - ANOVA test for payment type vs order value (F=43.56, p<0.001) - Rejected null hypothesis
-  - Pearson correlation for delivery time vs review score (r=-0.305, p<0.001) - Significant negative correlation
-  - ANOVA test for state vs customer satisfaction (F=151.44, p<0.001) - Significant state differences
-- **Correlation Analysis**: Pearson and Spearman correlations identified strong relationships between price and total payment value (r=0.761), freight value and product weight (r=0.610)
-
-**Machine Learning Models:**
-- **Linear Regression**: Predicted review scores using price, freight value, delivery time, and order item count
-  - R² = 0.123 (explains 12.3% of variance)
-  - RMSE = 1.26
-  - Key finding: Delivery time has strongest negative impact (-0.423 coefficient)
-  
-- **Logistic Regression**: Classified high customer satisfaction (review score ≥ 4)
-  - Accuracy: 78%
-  - Precision: 79% for high satisfaction class
-  - Key predictors: Delivery time (-0.681 log-odds), order complexity (-0.385 log-odds)
-
-**Business Insights:**
-- Delivery time is the most critical factor affecting customer satisfaction
-- Payment method significantly influences order values
-- Geographic location impacts both delivery performance and satisfaction levels
-- Product weight correlates with shipping costs, affecting overall customer experience
-
-## 10. Project Architecture
+## 9. Project Architecture
 The repository is structured as follows:
 
 ```
@@ -175,7 +147,7 @@ Capstone-Project/
 └── README.md                         # Project documentation
 ```
 
-## 11. Technologies Used
+## 10. Technologies Used
 - **Programming Language:** Python 3.10+
 - **Data Processing:** Pandas, NumPy
 - **Visualization:** Matplotlib, Seaborn, Tableau Public
@@ -183,7 +155,7 @@ Capstone-Project/
 - **Development Environment:** Jupyter Notebook
 - **Version Control:** Git, GitHub
 
-## 12. Team Contributions
+## 11. Team Contributions
 Based on the Git commit history and repository analysis:
 
 | Team Member | Contribution |
@@ -194,13 +166,13 @@ Based on the Git commit history and repository analysis:
 | Harsh Patel | Developed the complete ETL pipeline script (`etl_pipeline.py`) and final load preparation script (`final_load_prep.py`). Generated the Tableau-ready CSV dataset with 112,651 records. Implemented data optimization and feature engineering. |
 | Saubhagya Anubhav | Created comprehensive project documentation including detailed README sections. Added data documentation and capstone project documentation. Performed repository analysis and documentation accuracy verification. |
 
-## 13. Challenges Faced
+## 12. Challenges Faced
 Based on the code and data structure, challenges likely included:
 - Joining 9 different datasets using varying primary and foreign keys (`order_id`, `product_id`, `customer_id`).
 - Handling missing product dimensions and unwritten review comments.
 - Managing memory usage for the master dataset, which was addressed by optimizing data types in the final preparation script.
 
-## 14. Final Output / Results
+## 13. Final Output / Results
 The final project produces:
 - **master_dataset.csv** (63.6 MB): Cleaned and joined dataset containing 112,651 records with order, product, customer, and review data across 61 columns.
 - **tableau_ready.csv** (66.7 MB): Optimized dataset with additional features for Tableau visualization.
@@ -209,7 +181,7 @@ The final project produces:
 - **Executed Notebooks**: All 5 Jupyter notebooks with complete outputs, visualizations, and analysis results.
 - **Python Scripts**: Automated ETL pipeline and analysis scripts that can be executed independently.
 
-## 15. How to Run the Project
+## 14. How to Run the Project
 
 ### Prerequisites
 - Python 3.10 or higher
@@ -262,7 +234,7 @@ Navigate to the `notebooks/` folder and open files sequentially:
 
 **Note:** Notebooks 03, 04, and 05 already contain executed outputs with all visualizations and results.
 
-## 16. Future Improvements
+## 15. Future Improvements
 - Integrate real-time data pipeline using Apache Airflow or similar orchestration tools
 - Implement automated testing for data quality validation
 - Add more advanced machine learning models for customer churn prediction
@@ -271,7 +243,7 @@ Navigate to the `notebooks/` folder and open files sequentially:
 - Implement data versioning using DVC (Data Version Control)
 - Add automated report generation and email notifications
 
-## 17. Conclusion
+## 16. Conclusion
 This project demonstrates how raw e-commerce data can be cleaned, merged, analyzed, and prepared for visualization. The work highlights important areas such as customer behavior, delivery performance, and review patterns. Overall, the project shows how data analysis can support better business understanding and decision-making.
 
 ## 18. Documentation Accuracy Notes
