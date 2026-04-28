@@ -82,9 +82,9 @@ Based on the Git commit history and repository analysis:
 
 | Team Member | Contribution |
 |------------|--------------|
-| Ayush Kumar Jha | Project lead and repository owner. Created comprehensive EDA notebook (03), statistical analysis notebook (04), and final load prep notebook (05). Managed pull requests, code reviews, and repository structure. Fixed JSON structures and removed emojis for cleaner presentation. |
+| Ayush Kumar Jha | Created comprehensive EDA notebook (03), statistical analysis notebook (04), and final load prep notebook (05). Managed pull requests, code reviews, and repository structure |
 | Harsh Patel | Developed the complete ETL pipeline script (`etl_pipeline.py`) and final load preparation script (`final_load_prep.py`). Generated the Tableau-ready CSV dataset with 112,651 records. Implemented data optimization and feature engineering. |
-| Pratik Kumar Pan | Added all processed data files and raw datasets. Created initial extraction notebook (01) and cleaning notebook (02). Contributed to data preparation and early-stage data processing. Added Tableau files to the repository. |
+| Pratik Kumar Pan | Added all processed data files and raw datasets. Created initial extraction notebook (01) and cleaning notebook (02). Contributed to data preparation and early-stage data processing. Added Tableau files to the repository. Make DashBoard |
 | Adarsh Priydarshi | Executed all analysis notebooks with outputs and visualizations. Implemented analysis scripts execution. Managed repository maintenance, `.gitignore` configurations, and handled merge conflicts. |
 | Saubhagya Anubhav | Created comprehensive project documentation including detailed README sections. Added data documentation and capstone project documentation. Performed repository analysis and documentation accuracy verification. |
 
