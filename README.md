@@ -78,17 +78,15 @@ The repository is structured as follows:
 - GitHub
 
 ## 12. Team Contributions
-Based on the visible repository files and available project structure, the team contribution appears to be:
+Based on the Git commit history and repository analysis:
 
 | Team Member | Contribution |
 |------------|--------------|
-| Ayush Kumar Jha | Project folder structure, comprehensive EDA, statistical analysis, final load prep notebook, and code reviews. |
-| Pratik Kumar Pan | Added raw data files, data extraction, and initial cleaning notebooks. |
-| Harsh Patel | Developed the Python ETL pipeline script, final load prep script, and generated the Tableau-ready CSV. |
-| Adarsh Priydarshi | Repository maintenance and `.gitignore` configurations. |
-| Saubhagya Anubhav | Comprehensive project documentation and repository analysis. |
-
-*Exact individual contributions should be verified from GitHub commit history before final submission.*
+| Ayush Kumar Jha | Project lead and repository owner. Created comprehensive EDA notebook (03), statistical analysis notebook (04), and final load prep notebook (05). Managed pull requests, code reviews, and repository structure. Fixed JSON structures and removed emojis for cleaner presentation. |
+| Harsh Patel | Developed the complete ETL pipeline script (`etl_pipeline.py`) and final load preparation script (`final_load_prep.py`). Generated the Tableau-ready CSV dataset with 112,651 records. Implemented data optimization and feature engineering. |
+| Pratik Kumar Pan | Added all processed data files and raw datasets. Created initial extraction notebook (01) and cleaning notebook (02). Contributed to data preparation and early-stage data processing. Added Tableau files to the repository. |
+| Adarsh Priydarshi | Executed all analysis notebooks with outputs and visualizations. Implemented analysis scripts execution. Managed repository maintenance, `.gitignore` configurations, and handled merge conflicts. |
+| Saubhagya Anubhav | Created comprehensive project documentation including detailed README sections. Added data documentation and capstone project documentation. Performed repository analysis and documentation accuracy verification. |
 
 ## 13. Challenges Faced
 Based on the code and data structure, challenges likely included:
