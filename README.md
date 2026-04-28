@@ -82,10 +82,10 @@ Based on the Git commit history and repository analysis:
 
 | Team Member | Contribution |
 |------------|--------------|
-| Ayush Kumar Jha | Project lead and repository owner. Created comprehensive EDA notebook (03), statistical analysis notebook (04), and final load prep notebook (05). Managed pull requests, code reviews, and repository structure. Fixed JSON structures and removed emojis for cleaner presentation. |
+| Pratik Kumar Pan | Lead Data Engineer - Added all 9 raw CSV datasets (1.6M+ rows) and processed data files. Created extraction notebook (01) and comprehensive cleaning notebook (02) with data transformation logic. Developed data quality checks, handled missing values, and implemented duplicate removal. Engineered data merges across relational tables and established the data processing workflow. Added Tableau files to the repository. |
+| Adarsh Priydarshi | Senior Data Analyst - Executed all analysis notebooks (03-EDA, 04-Statistical Analysis, 05-Final Load Prep) with complete outputs and visualizations. Implemented statistical analysis including hypothesis testing, ANOVA, regression models, and correlation analysis. Generated visualization outputs and analytical reports. Managed repository maintenance, configured `.gitignore`, and handled merge conflicts. |
+| Ayush Kumar Jha | Project owner and repository maintainer. Created comprehensive EDA notebook (03), statistical analysis notebook (04), and final load prep notebook (05). Managed pull requests, code reviews, and repository structure. Fixed JSON structures and removed emojis for cleaner presentation. |
 | Harsh Patel | Developed the complete ETL pipeline script (`etl_pipeline.py`) and final load preparation script (`final_load_prep.py`). Generated the Tableau-ready CSV dataset with 112,651 records. Implemented data optimization and feature engineering. |
-| Pratik Kumar Pan | Added all processed data files and raw datasets. Created initial extraction notebook (01) and cleaning notebook (02). Contributed to data preparation and early-stage data processing. Added Tableau files to the repository. |
-| Adarsh Priydarshi | Executed all analysis notebooks with outputs and visualizations. Implemented analysis scripts execution. Managed repository maintenance, `.gitignore` configurations, and handled merge conflicts. |
 | Saubhagya Anubhav | Created comprehensive project documentation including detailed README sections. Added data documentation and capstone project documentation. Performed repository analysis and documentation accuracy verification. |
 
 ## 13. Challenges Faced
